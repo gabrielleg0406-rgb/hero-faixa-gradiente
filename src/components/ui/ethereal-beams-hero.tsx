@@ -302,14 +302,16 @@ const Beams: FC<BeamsProps> = ({
   )
 
   return (
-    <group rotation-z={degToRad(rotation)}>
+    <>
       <PerspectiveCamera makeDefault position={[0, 0, 14]} fov={20}>
         <DirLight position={[0, 5, 3]} color={lightColor} />
         <DirLight position={[0, 5, -3]} color={lightColor} />
       </PerspectiveCamera>
       <ambientLight intensity={0.1} color={lightColor} />
-      <PlaneNoise ref={meshRef} material={beamMaterial} width={beamWidth} count={beamNumber} height={beamHeight} />
-    </group>
+      <group rotation-z={degToRad(rotation)}>
+        <PlaneNoise ref={meshRef} material={beamMaterial} width={beamWidth} count={beamNumber} height={beamHeight} />
+      </group>
+    </>
   )
 }
 
