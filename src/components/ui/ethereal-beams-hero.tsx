@@ -322,12 +322,12 @@ export default function EtherealBeamsBackground() {
         <Beams
           lightColor="#ffffff"
           speed={2}
-          beamWidth={3}
+          beamWidth={1.2}
           beamHeight={20}
-          beamNumber={20}
+          beamNumber={40}
           scale={0.18}
           noiseIntensity={1.6}
-          rotation={30}
+          rotation={45}
         />
       </CanvasWrapper>
     </div>
