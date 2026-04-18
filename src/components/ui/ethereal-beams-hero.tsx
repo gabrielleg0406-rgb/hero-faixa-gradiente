@@ -319,7 +319,7 @@ export default function EtherealBeamsBackground() {
   return (
     <div className="absolute inset-0 w-full h-full">
       <CanvasWrapper>
-        <Beams lightColor="#22c55e" speed={1.5} beamWidth={1.5} beamNumber={14} scale={0.25} rotation={0} />
+        <Beams lightColor="#ffffff" speed={2} beamWidth={2} beamNumber={12} scale={0.2} noiseIntensity={1.75} rotation={0} />
       </CanvasWrapper>
     </div>
   )
