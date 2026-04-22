@@ -24,7 +24,7 @@ export default function HeroSection() {
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-1">
             <div className="glass rounded-full px-2 py-1.5 flex items-center gap-1">
-              {["Início", "Serviços", "Casos", "Contato"].map((item) => (
+              {["Início", "Serviços", "Casos", "Sobre", "Contato"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -41,7 +41,7 @@ export default function HeroSection() {
               href="#contato"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors"
             >
-              Falar com especialista
+              Lorem ipsum
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>
@@ -59,7 +59,7 @@ export default function HeroSection() {
         {menuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full glass border-t border-border/30 z-20">
             <div className="flex flex-col p-6 gap-4">
-              {["Início", "Serviços", "Casos", "Contato"].map((item) => (
+              {["Início", "Serviços", "Casos", "Sobre", "Contato"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -73,7 +73,7 @@ export default function HeroSection() {
                 href="#contato"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-full text-sm font-semibold mt-2"
               >
-                Falar com especialista
+                Lorem ipsum
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -87,20 +87,20 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-8">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
-            <span className="text-sm text-muted-foreground">Infraestrutura de IA para empresas modernas</span>
+            <span className="text-sm text-muted-foreground">Lorem ipsum dolor sit amet</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
-            <span className="text-foreground">Sistemas de IA que </span>
-            <span className="gradient-text">automatizam, escalam</span>
+            <span className="text-foreground">Lorem ipsum dolor </span>
+            <span className="gradient-text">sit amet consectetur</span>
             <br />
-            <span className="text-foreground">e operam negócios</span>
+            <span className="text-foreground">adipiscing elit</span>
           </h1>
 
           {/* Subheadline */}
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
-            Automações, agentes inteligentes, SaaS e sistemas sob medida para empresas que querem crescer com eficiência.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           {/* CTAs */}
@@ -109,23 +109,23 @@ export default function HeroSection() {
               href="#contato"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full text-base font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/25"
             >
-              Agendar consultoria
+              Lorem ipsum
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
               href="#servicos"
               className="inline-flex items-center gap-2 glass rounded-full px-8 py-4 text-base font-medium text-foreground hover:bg-foreground/10 transition-colors"
             >
-              Ver nossos serviços
+              Dolor sit amet
             </a>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 max-w-md mx-auto">
             {[
-              { value: "+100", label: "Clientes" },
-              { value: "+10", label: "Anos de experiência" },
-              { value: "24/7", label: "Suporte" },
+              { value: "100+", label: "Lorem ipsum" },
+              { value: "10+", label: "Dolor sit amet" },
+              { value: "24/7", label: "Consectetur" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <p className="text-2xl md:text-3xl font-bold text-foreground">{stat.value}</p>
