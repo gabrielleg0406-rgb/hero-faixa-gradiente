@@ -3,27 +3,27 @@ import { Puzzle, Bot, Code2, BarChart3 } from "lucide-react"
 const pillars = [
   {
     icon: Puzzle,
-    title: "Infraestrutura de IA",
-    items: ["Arquitetura", "Banco de dados", "Orquestração"],
-    description: "Projetamos a base técnica que sustenta soluções de IA robustas e escaláveis.",
+    title: "Lorem Ipsum",
+    items: ["Lorem", "Ipsum", "Dolor"],
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
   },
   {
     icon: Bot,
-    title: "Agentes Inteligentes",
-    items: ["Atendimento", "Vendas", "Operações"],
-    description: "Agentes autônomos que trabalham 24/7, aprendem e evoluem com seu negócio.",
+    title: "Dolor Sit Amet",
+    items: ["Sit", "Amet", "Consectetur"],
+    description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
   },
   {
     icon: Code2,
-    title: "SaaS & Sistemas",
-    items: ["Plataformas", "Dashboards", "APIs"],
-    description: "Desenvolvimento de software sob medida com inteligência artificial integrada.",
+    title: "Consectetur Elit",
+    items: ["Adipiscing", "Elit", "Sed"],
+    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
   },
   {
     icon: BarChart3,
-    title: "Automação & Escala",
-    items: ["Processos", "Workflows", "Integrações"],
-    description: "Automatize operações repetitivas e escale sua empresa com eficiência.",
+    title: "Tempor Incididunt",
+    items: ["Labore", "Dolore", "Magna"],
+    description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
   },
 ]
 
@@ -33,14 +33,14 @@ export default function PillarsSection() {
       <div className="mx-auto max-w-7xl px-6">
         {/* Section header */}
         <div className="text-center mb-16">
-          <span className="text-sm font-medium text-primary uppercase tracking-wider">Nossos pilares</span>
+          <span className="text-sm font-medium text-primary uppercase tracking-wider">Lorem ipsum</span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-4 mb-4">
-            Construímos a infraestrutura de IA
+            Lorem ipsum dolor sit amet
             <br />
-            <span className="gradient-text">por trás de empresas modernas</span>
+            <span className="gradient-text">consectetur adipiscing elit</span>
           </h2>
           <p className="max-w-2xl mx-auto text-muted-foreground text-lg">
-            Quatro áreas de especialização que cobrem toda a jornada de transformação com IA.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.
           </p>
         </div>
 
