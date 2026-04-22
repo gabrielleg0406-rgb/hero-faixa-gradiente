@@ -59,7 +59,7 @@ export default function HeroSection() {
         {menuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full glass border-t border-border/30 z-20">
             <div className="flex flex-col p-6 gap-4">
-              {["Início", "Serviços", "Casos", "Contato"].map((item) => (
+              {["Início", "Serviços", "Casos", "Sobre", "Contato"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -73,7 +73,7 @@ export default function HeroSection() {
                 href="#contato"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-5 py-3 rounded-full text-sm font-semibold mt-2"
               >
-                Falar com especialista
+                Lorem ipsum
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
