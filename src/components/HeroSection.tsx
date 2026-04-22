@@ -41,7 +41,7 @@ export default function HeroSection() {
               href="#contato"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors"
             >
-              Falar com especialista
+              Lorem ipsum
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>
