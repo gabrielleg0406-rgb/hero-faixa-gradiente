@@ -24,7 +24,7 @@ export default function HeroSection() {
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-1">
             <div className="glass rounded-full px-2 py-1.5 flex items-center gap-1">
-              {["Início", "Serviços", "Casos", "Contato"].map((item) => (
+              {["Início", "Serviços", "Casos", "Sobre", "Contato"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
