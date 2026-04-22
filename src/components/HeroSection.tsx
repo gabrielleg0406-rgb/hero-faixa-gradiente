@@ -87,20 +87,20 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-8">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
-            <span className="text-sm text-muted-foreground">Infraestrutura de IA para empresas modernas</span>
+            <span className="text-sm text-muted-foreground">Lorem ipsum dolor sit amet</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
-            <span className="text-foreground">Sistemas de IA que </span>
-            <span className="gradient-text">automatizam, escalam</span>
+            <span className="text-foreground">Lorem ipsum dolor </span>
+            <span className="gradient-text">sit amet consectetur</span>
             <br />
-            <span className="text-foreground">e operam negócios</span>
+            <span className="text-foreground">adipiscing elit</span>
           </h1>
 
           {/* Subheadline */}
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10 leading-relaxed">
-            Automações, agentes inteligentes, SaaS e sistemas sob medida para empresas que querem crescer com eficiência.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           {/* CTAs */}
