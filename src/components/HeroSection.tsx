@@ -109,14 +109,14 @@ export default function HeroSection() {
               href="#contato"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full text-base font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/25"
             >
-              Agendar consultoria
+              Lorem ipsum
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
               href="#servicos"
               className="inline-flex items-center gap-2 glass rounded-full px-8 py-4 text-base font-medium text-foreground hover:bg-foreground/10 transition-colors"
             >
-              Ver nossos serviços
+              Dolor sit amet
             </a>
           </div>
 
